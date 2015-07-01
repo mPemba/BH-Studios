@@ -1,13 +1,27 @@
-.test {
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.navBar {
+	position: fixed;
 	margin: 0 auto;
-	width: 100px;
-	background: none;
-	border: 3px solid #112342;
+	width: 100%;
+}
+
+.navLinkList {
 	text-align: center;
-	vertical-align: middle;
+	margin: 0 auto;
+}
+
+.navLink {
+	display: inline-block;
 	color: #112342;
-	font-family: 'Helvetica', sans-serif;
-	font-size: 2rem;
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px 40px;
+	font-family: "Avant Garde", sans-serif;
+	font-size: 1.2rem;
 	font-weight: lighter;
-	padding: 20px;
+	letter-spacing: 1.2px;
 }
